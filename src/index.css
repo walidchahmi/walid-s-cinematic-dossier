@@ -200,11 +200,11 @@
   }
 
   .project-card {
-    @apply glass-card overflow-hidden group;
+    @apply glass-card overflow-hidden;
   }
 
   .project-card-overlay {
-    @apply absolute inset-0 bg-gradient-to-t from-background via-background/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500;
+    @apply absolute inset-0 bg-gradient-to-t from-background via-background/50 to-transparent opacity-0 transition-opacity duration-500;
   }
 }
 
